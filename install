@@ -29,3 +29,7 @@ mkdir -p $FW_DIR
 # install Realtek NIC firmware
 mkdir -p $FW_DIR/rtl_nic
   cp rtl_nic/* $FW_DIR/rtl_nic
+
+# install ar3k firmware
+mkdir -p $FW_DIR/ar3k
+  cp ar3k/* $FW_DIR/ar3k
