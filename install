@@ -25,3 +25,7 @@ FW_DIR="$DESTDIR/lib/firmware"
 # install Aetheros ath3k firmware
 mkdir -p $FW_DIR
   cp ath3k/* $FW_DIR
+
+# install ar3k firmware
+mkdir -p $FW_DIR/ar3k
+  cp ar3k/* $FW_DIR/ar3k
