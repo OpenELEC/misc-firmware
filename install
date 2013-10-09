@@ -29,3 +29,8 @@ mkdir -p $FW_DIR
 # install ar3k firmware
 mkdir -p $FW_DIR/ar3k
   cp ar3k/* $FW_DIR/ar3k
+
+# install radeon firmware
+mkdir -p $FW_DIR/radeon
+  cp radeon/* $FW_DIR/radeon
+
